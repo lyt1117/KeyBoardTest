@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3A629B43-66AB-4C06-AFCF-A1F31BA71BBD</string>
+	<key>IDESourceControlProjectName</key>
+	<string>KeyBoardTest</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D6F1A84EA26E9CBCE1C05230F887F4892F951041</key>
+		<string>https://github.com/lyt1117/KeyBoardTest.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>KeyBoardTest.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D6F1A84EA26E9CBCE1C05230F887F4892F951041</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/lyt1117/KeyBoardTest.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D6F1A84EA26E9CBCE1C05230F887F4892F951041</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D6F1A84EA26E9CBCE1C05230F887F4892F951041</string>
+			<key>IDESourceControlWCCName</key>
+			<string>KeyBoardTest1</string>
+		</dict>
+	</array>
+</dict>
+</plist>

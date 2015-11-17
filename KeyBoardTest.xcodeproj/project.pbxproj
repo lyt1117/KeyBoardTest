@@ -15,6 +15,7 @@
 		447A3FEF1BFB303B00FE2AB4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 447A3FEE1BFB303B00FE2AB4 /* Images.xcassets */; };
 		447A3FF21BFB303B00FE2AB4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 447A3FF01BFB303B00FE2AB4 /* LaunchScreen.xib */; };
 		447A3FFE1BFB303B00FE2AB4 /* KeyBoardTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 447A3FFD1BFB303B00FE2AB4 /* KeyBoardTestTests.m */; };
+		447A400E1BFB328700FE2AB4 /* XKeyBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 447A400D1BFB328700FE2AB4 /* XKeyBoard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		447A3FF71BFB303B00FE2AB4 /* KeyBoardTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyBoardTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		447A3FFC1BFB303B00FE2AB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		447A3FFD1BFB303B00FE2AB4 /* KeyBoardTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyBoardTestTests.m; sourceTree = "<group>"; };
+		447A400C1BFB328700FE2AB4 /* XKeyBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XKeyBoard.h; sourceTree = "<group>"; };
+		447A400D1BFB328700FE2AB4 /* XKeyBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XKeyBoard.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +68,7 @@
 		447A3FD21BFB303B00FE2AB4 = {
 			isa = PBXGroup;
 			children = (
+				447A400B1BFB328700FE2AB4 /* KeyBoard */,
 				447A3FDD1BFB303B00FE2AB4 /* KeyBoardTest */,
 				447A3FFA1BFB303B00FE2AB4 /* KeyBoardTestTests */,
 				447A3FDC1BFB303B00FE2AB4 /* Products */,
@@ -120,6 +124,15 @@
 				447A3FFC1BFB303B00FE2AB4 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		447A400B1BFB328700FE2AB4 /* KeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				447A400C1BFB328700FE2AB4 /* XKeyBoard.h */,
+				447A400D1BFB328700FE2AB4 /* XKeyBoard.m */,
+			);
+			path = KeyBoard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +235,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				447A400E1BFB328700FE2AB4 /* XKeyBoard.m in Sources */,
 				447A3FE71BFB303B00FE2AB4 /* KeyBoardTest.xcdatamodeld in Sources */,
 				447A3FE41BFB303B00FE2AB4 /* AppDelegate.m in Sources */,
 				447A3FEA1BFB303B00FE2AB4 /* ViewController.m in Sources */,
@@ -420,6 +434,7 @@
 				447A40031BFB303B00FE2AB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		447A40041BFB303B00FE2AB4 /* Build configuration list for PBXNativeTarget "KeyBoardTestTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +443,7 @@
 				447A40061BFB303B00FE2AB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
